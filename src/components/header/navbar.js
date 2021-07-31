@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react'
-import { Popover, Transition } from '@headlessui/react'
+import { Popover, Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/solid'
 
 export default function navbar() {
@@ -32,13 +32,14 @@ export default function navbar() {
                             </li>
                         </ul>
                     </div>
+                    
                     <Transition
                         show={open}
                         as={Fragment}
-                        enter="duration-150 ease-out"
+                        enter="duration-150 right right-full"
                         enterFrom="opacity-0 scale-95"
                         enterTo="opacity-100 scale-100"
-                        leave="duration-100 ease-in"
+                        leave="duration-100 left left-full"
                         leaveFrom="opacity-100 scale-100"
                         leaveTo="opacity-0 scale-95"
                         >
