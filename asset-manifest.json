@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/beauty-gem-store/static/css/main.90d2fa29.chunk.css",
-    "main.js": "/beauty-gem-store/static/js/main.09d03d13.chunk.js",
-    "main.js.map": "/beauty-gem-store/static/js/main.09d03d13.chunk.js.map",
+    "main.css": "/beauty-gem-store/static/css/main.2263ae4a.chunk.css",
+    "main.js": "/beauty-gem-store/static/js/main.ce25bce7.chunk.js",
+    "main.js.map": "/beauty-gem-store/static/js/main.ce25bce7.chunk.js.map",
     "runtime-main.js": "/beauty-gem-store/static/js/runtime-main.d7d1b311.js",
     "runtime-main.js.map": "/beauty-gem-store/static/js/runtime-main.d7d1b311.js.map",
     "static/js/2.bb016e61.chunk.js": "/beauty-gem-store/static/js/2.bb016e61.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.3607bd37.chunk.js": "/beauty-gem-store/static/js/3.3607bd37.chunk.js",
     "static/js/3.3607bd37.chunk.js.map": "/beauty-gem-store/static/js/3.3607bd37.chunk.js.map",
     "index.html": "/beauty-gem-store/index.html",
-    "static/css/main.90d2fa29.chunk.css.map": "/beauty-gem-store/static/css/main.90d2fa29.chunk.css.map",
+    "static/css/main.2263ae4a.chunk.css.map": "/beauty-gem-store/static/css/main.2263ae4a.chunk.css.map",
     "static/js/2.bb016e61.chunk.js.LICENSE.txt": "/beauty-gem-store/static/js/2.bb016e61.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d7d1b311.js",
     "static/js/2.bb016e61.chunk.js",
-    "static/css/main.90d2fa29.chunk.css",
-    "static/js/main.09d03d13.chunk.js"
+    "static/css/main.2263ae4a.chunk.css",
+    "static/js/main.ce25bce7.chunk.js"
   ]
 }
