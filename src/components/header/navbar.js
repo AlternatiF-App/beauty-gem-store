@@ -1,8 +1,8 @@
 import React, {Fragment} from 'react'
-import { Popover, Disclosure, Menu, Transition } from '@headlessui/react'
+import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/solid'
 
-export default function navbar() {
+export default function Navbar() {
     return (
         <nav className="bg-white bg-opacity-60 py-4 px-8 md:px-14 lg:px-20">
             <div className="flex justify-between">

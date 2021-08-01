@@ -1,7 +1,7 @@
 import React from 'react'
 import { SearchIcon } from '@heroicons/react/solid'
 
-export default function section1() {
+export default function Section1() {
     return (
         <div className="bg-gray-200">
             <div className="grid grid-cols-1 md:grid-cols-2">
