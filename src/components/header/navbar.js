@@ -46,9 +46,9 @@ export default function navbar() {
                         <Popover.Panel
                             focus
                             static
-                            className="absolute top-0 inset-x-0 transition transform origin-top-right md:hidden lg:hidden xl:hidden"
+                            className="absolute bg-gray-900 bg-opacity-20 top-0 inset-x-0 transition transform origin-top-right md:hidden lg:hidden xl:hidden"
                         >
-                            <div className="rounded-lg fixed py-6 px-6 w-8/12 md:w-1/2 h-screen shadow-md bg-white overflow-hidden">
+                            <div className="rounded-lg relative py-6 px-6 w-8/12 md:w-1/2 h-screen shadow-md bg-white overflow-hidden">
                                 <div className="mt-3 flex items-center justify-between">
                                     <div className="flex mb-8">
                                         <h1 className="font-semibold font-nunito text-2xl text-green-500">Beauty </h1>
@@ -71,7 +71,7 @@ export default function navbar() {
                                         <li className="my-auto font-nunito">Register</li>
                                     </ul>
                                 </div>
-                                <div className="absolute bottom-0 w-full px-6">
+                                <div className="mt-auto">
                                     <div className="pt-6">
                                         <a className="font-nunito py-3 px-4 mb-3 w-full flex justify-center bg-green-500 text-white rounded-md">
                                             Post Request
