@@ -4,43 +4,34 @@ import PartnerCard from './PartnerCard'
 
 export default function Partner() {
 
-    let slider = new Glide('#glide', {
+    let slider = new Glide('.glide', {
         type: 'slider',
         perView: 6,
+        peek:{
+            before:0,
+            after:0
+        },
+        rewind:false,
         bound:true,
-        lenght:6,
-        width:1536,
+        animationTimingFunc:"ease",
+        animationDuration:1000,
+        swipeThreshold:50,
+        dragThreshold:10,
         breakpoints:{
             360:{
-                perView:2,
-                lenght:2,
-                width:360,
-                touchAngle:1,
-                bound:true
+                perView:2
             },
             640:{
-                perView:4,
-                lenght:4,
-                width:640,
-                bound:true
+                perView:4
             },
             768:{
-                perView:4,
-                lenght:4,
-                width:768,
-                bound:true
+                perView:4
             },
             1024:{
-                perView:4,
-                lenght:4,
-                width:1024,
-                bound:true
+                perView:4
             },
             1280:{
-                perView:5,
-                lenght:5,
-                width:1280,
-                bound:true
+                perView:6
             }
         }
     })
@@ -54,18 +45,30 @@ export default function Partner() {
             <h1 className="font-openSans font-bold text-xl text-center mx-10 my-10 h-14">
                 Trusted by over 1,000,000 business worldwide customers
             </h1>
-            <div id="glide" className="glide container mx-auto overflow-x-auto">
+            <div className="glide container mx-auto overflow-x-auto">
                 <div className="glide__track" data-glide-el="track">
-                    <div id="glide" className="glide__slides space-x-6 md:space-x-10 flex">
-                        {/* <div className="glide__slide">
+                    <div className="glide__slides space-x-6 md:space-x-10 flex">
+                        <div className="glide_slide">
                             <PartnerCard/>
-                        </div> */}
-                        <PartnerCard/>
-                        <PartnerCard/>
-                        <PartnerCard/>
-                        <PartnerCard/>
-                        <PartnerCard/>
-                        <PartnerCard/>
+                        </div>
+                        <div className="glide_slide">
+                            <PartnerCard/>
+                        </div>
+                        <div className="glide_slide">
+                            <PartnerCard/>
+                        </div>
+                        <div className="glide_slide">
+                            <PartnerCard/>
+                        </div>
+                        <div className="glide_slide">
+                            <PartnerCard/>
+                        </div>
+                        <div className="glide_slide">
+                            <PartnerCard/>
+                        </div>
+                        <div className="glide_slide">
+                            <PartnerCard/>
+                        </div>
                     </div>
                 </div>
             </div>

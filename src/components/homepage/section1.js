@@ -5,7 +5,7 @@ export default function Section1() {
     return (
         <div className="bg-gray-200">
             <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className='py-8 md:py-14 mx-8 lg:mx-20'>
+                <div className='py-4 md:py-14 mx-6 lg:mx-20'>
                     <div className="text-sm lg:text-lg my-4">
                         <h1 className="font-nunito text-gray-500">Beauty Gems</h1>
                     </div>
