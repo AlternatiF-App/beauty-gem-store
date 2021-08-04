@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/beauty-gem-store/static/css/main.b7ce1fdf.chunk.css",
-    "main.js": "/beauty-gem-store/static/js/main.74987161.chunk.js",
-    "main.js.map": "/beauty-gem-store/static/js/main.74987161.chunk.js.map",
+    "main.js": "/beauty-gem-store/static/js/main.db8fa94f.chunk.js",
+    "main.js.map": "/beauty-gem-store/static/js/main.db8fa94f.chunk.js.map",
     "runtime-main.js": "/beauty-gem-store/static/js/runtime-main.5efa70dd.js",
     "runtime-main.js.map": "/beauty-gem-store/static/js/runtime-main.5efa70dd.js.map",
     "static/js/2.1f62b257.chunk.js": "/beauty-gem-store/static/js/2.1f62b257.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5efa70dd.js",
     "static/js/2.1f62b257.chunk.js",
     "static/css/main.b7ce1fdf.chunk.css",
-    "static/js/main.74987161.chunk.js"
+    "static/js/main.db8fa94f.chunk.js"
   ]
 }
