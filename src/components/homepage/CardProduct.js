@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function CardProduct() {
+
     return (
         <div className="flex-row mx-auto">
             <img className="h-64 w-full rounded-md"
