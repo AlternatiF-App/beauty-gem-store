@@ -21,11 +21,11 @@ export default function Section1() {
                     </div>
                     <div className="flex">
                         <input
-                            className="w-10/12 md:w-5/12 lg:w-9/12 xl:w-7/12 2xl:w-5/12 h-10 placeholder-gray-500 px-5"
+                            className="w-10/12 md:w-5/12 lg:w-9/12 xl:w-7/12 2xl:w-5/12 h-10 placeholder-gray-500 focus:outline-none px-5"
                             placeholder="Enter Keywords"
                         />
-                        <button className="p-4 bg-green-500">
-                            <SearchIcon className="h-3 w-3 text-white"/>
+                        <button className="p-4 h-10 bg-green-500">
+                            <SearchIcon className="h-2.5 w-2.5 text-white rounded-md"/>
                         </button>
                     </div>
                 </div>

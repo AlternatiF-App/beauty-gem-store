@@ -8,7 +8,7 @@ export default function Navbar() {
             <div className="flex justify-between">
                 <div className="my-auto flex">
                     <h1 className="font-semibold font-nunito text-3xl leading-none text-green-400">Beauty </h1>
-                    <h1 className="font-semibold font-nunito text-3xl">Gems</h1>
+                    <h1 className="font-semibold font-nunito text-3xl leading-none">Gems</h1>
                 </div>
                 <Popover>
                     {({ open }) => (
@@ -20,7 +20,7 @@ export default function Navbar() {
                         </Popover.Button>
                     </div>
                     <div className="hidden lg:block">
-                        <ul className="flex space-x-2 md:space-x-8 lg:space-x-4 justify-end">
+                        <ul className="flex space-x-2 md:space-x-8 lg:space-x-8 justify-end">
                             <li className="my-auto font-nunito border-b-2 border-black">Home</li>
                             <li className="my-auto font-nunito">Browse</li>
                             <li className="my-auto font-nunito">Source More</li>

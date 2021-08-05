@@ -4,7 +4,7 @@ import PartnerCard from './PartnerCard'
 
 export default function Partner() {
 
-    let slider = new Glide('.glide', {
+    let slider = new Glide('#partner', {
         type: 'slider',
         perView: 6,
         peek:{
@@ -45,31 +45,28 @@ export default function Partner() {
             <h1 className="font-openSans font-bold text-xl text-center mx-10 my-10 h-14">
                 Trusted by over 1,000,000 business worldwide customers
             </h1>
-            <div className="glide container mx-auto overflow-x-auto">
+            <div id="partner" className="glide container mx-auto overflow-x-auto">
                 <div className="glide__track" data-glide-el="track">
-                    <div className="glide__slides space-x-6 md:space-x-10 flex">
-                        <div className="glide_slide">
+                    <ul className="glide__slides flex">
+                        <li className="glide_slide">
                             <PartnerCard/>
-                        </div>
-                        <div className="glide_slide">
+                        </li>
+                        <li className="glide_slide">
                             <PartnerCard/>
-                        </div>
-                        <div className="glide_slide">
+                        </li>
+                        <li className="glide_slide">
                             <PartnerCard/>
-                        </div>
-                        <div className="glide_slide">
+                        </li>
+                        <li className="glide_slide">
                             <PartnerCard/>
-                        </div>
-                        <div className="glide_slide">
+                        </li>
+                        <li className="glide_slide">
                             <PartnerCard/>
-                        </div>
-                        <div className="glide_slide">
+                        </li>
+                        <li className="glide_slide">
                             <PartnerCard/>
-                        </div>
-                        <div className="glide_slide">
-                            <PartnerCard/>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
